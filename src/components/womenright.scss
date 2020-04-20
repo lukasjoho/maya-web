@@ -1,7 +1,6 @@
 @import './_variables';
 
 #womenright{
-    height: 30vh;
     color: #FBF4F8;
     background: $background;
     display: flex;
@@ -42,7 +41,4 @@
 }
 
 @media screen and (max-width: 767px) {
-        #womenright{
-            height: 70vh;
-        }
 }
