@@ -1,0 +1,45 @@
+@import './_variables';
+
+#testimonials{
+    margin-bottom: 10rem;
+    .star{
+        margin-right: 10px;
+    }
+    .row{
+        
+        div{
+            padding: 3rem;
+        }
+    }
+
+    h1{
+        margin-bottom: $col-h1-mb;
+    }
+
+    p{
+        margin-bottom: $col-p-mb;
+    }
+
+    .background{
+        margin-top: 4rem;
+        background: radial-gradient(50% 50% at 50% 50%, rgba(191, 234, 251, 0.2) 0%, rgba(233, 242, 251, 0.2) 100%);
+    }
+
+    .bubble1{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -30%;
+        width: 90%;
+        z-index: 0;
+    }
+    .bubble2{
+        position: absolute;
+        right: -10%;
+        bottom: -25%;
+    }
+    .image{
+        position: relative;
+        z-index: 1;
+    }
+}

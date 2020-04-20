@@ -3,12 +3,28 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "bootstrap/dist/css/bootstrap.min.css"
 import Banner from "../components/banner"
+import Howitworks from "../components/howitworks"
+import Testimonials from "../components/testimonials"
+import Womenright from "../components/womenright"
+import Try from "../components/try"
+import Yourbody from "../components/yourbody"
+import Offer from "../components/offer"
+import Modelknown from "../components/modelknown"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="excyted | Creative Studio und Filmproduktion"
-         description="Als eine hybride Werbeproduktion entwickeln wir kreative Lösungen für deine Marke, dein Unternehmen oder dein Projekt. Mit dir wollen wir excyten und deine individuellen Projekte Wirklichkeit werden lassen."/>
+    <SEO title="Maya | Your birth control pills"
+         description="Affordable and discreet access to birth control has never been easier."/>
     <Banner/>
+    <Howitworks/>
+    <Yourbody/>
+  
+    <Testimonials/>
+    
+    <Offer/>
+    <Womenright/>
+    <Modelknown/>
+    <Try/>
   </Layout>
 )
 

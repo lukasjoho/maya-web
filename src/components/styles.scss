@@ -1,13 +1,47 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import './_variables';
 
 * {
-  font-family: 'Poppins', sans-serif !important;
+  font-family: "Raleway", sans-serif;
+  
+}
+
+.mt-2{
+  margin-top: 2rem;
+}
+
+.mt-4{
+  margin-top: 2rem;
+}
+
+.mt-6{
+  margin-top: 2rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
+}
+
+.mb-2{
+  margin-bottom: 2rem;
+}
+
+.mb-4{
+  margin-bottom: 4rem;
+}
+
+.mb-6{
+  margin-bottom: 6rem;
+}
+
+.mb-8{
+  margin-bottom: 8rem;
 }
 
 html, body {
   color: $primary !important;
-  background-color: #000000;
+  background-color: white;
   letter-spacing: 0.02rem;
 }
 
@@ -16,7 +50,7 @@ body{
 }
 
 main {
-  background: $gradientBackground;
+  background: white;
   background-attachment: fixed;
 }
 
@@ -26,12 +60,22 @@ ul {
 }
 
 h1{
-  font-weight: 800;
+  font-family: 'Zilla Slab', sans-serif !important;
+  color: $primary;
+  position: relative;
+  z-index: 10;
+}
+
+h2{
+  color: $primary;
+  font-family: 'Zilla Slab', sans-serif !important;
+  font-size: 24px !important;
 }
 
 p{
-  line-height: 26px;
-  color: $primary;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  line-height: 34px;
 }
 
 #imprint, #privacy {

@@ -1,0 +1,48 @@
+@import './_variables';
+
+#womenright{
+    height: 30vh;
+    color: #FBF4F8;
+    background: $background;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    h1{
+        color: #FBF4F8;
+        text-align: center;
+    }
+
+    .frame{
+        border: 1.5px solid #A49DF4;
+        padding: 2rem;
+        
+    }
+    .circle{
+        background: white;
+        border-radius: 100px;
+        width: 40px;
+        height: 40px;
+        margin-right: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            margin: 0;
+        }
+        
+    }
+    .features{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin-top: 4rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 767px) {
+        #womenright{
+            height: 70vh;
+        }
+}

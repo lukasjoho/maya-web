@@ -3,27 +3,25 @@ import "./banner.scss"
 import { Container, Row, Col } from "react-bootstrap"
 import PremiumButton from "./buttons/PremiumButton"
 import logo from "../images/banner/logo.png"
-import thumbnail from "../images/banner/banner-final.png"
+import hero from "../images/banner/hero.jpg"
+import arrowdown from "../images/banner/arrow-down.svg"
+import bubble1 from "../images/banner/bubble-banner1.svg"
+import bubble2 from "../images/banner/bubble-banner2.svg"
 
 const Banner = () => (
   <section id="banner">
     <Container>
       <Row>
         <Col md={6} className="banner-text">
-          <span className="brand-title">Brand. Digital. and Motion.</span>
-          <img src={logo} alt="Logo" className="banner-logo"/>
-          <div className="typewriter-container">
-          <h2 className="typewriter">because brand matters.</h2>
-          </div>
-          <h3>Creative Studio</h3>
-          <p>Als eine hybride Werbeproduktion entwickeln wir kreative Lösungen für deine Marke, dein Unternehmen oder dein Projekt. 
-            Mit dir wollen wir excyten und deine individuellen Projekte als Ganzes umsetzen. 
-            Sowohl konzeptionell als auch technisch und grafisch 
-            arbeiten wir mit dir gemeinsam an deiner Idee.</p>
-          <PremiumButton to="/projects" text="Unsere Projekte"/>
+          <h1>Your birth control pills prescribed & delivered to your doorstep</h1>
+          <p>Affordable and discreet access to birth control has never been easier.</p>
+          <PremiumButton to="/" text="Get started"/>
+          <img src={arrowdown} alt="Thumbnail" className="arrowdown"/>
         </Col>
         <Col md={6} className="showcase">
-          <img src={thumbnail} alt="Thumbnail" className="banner-image"/>
+          <img src={hero} alt="Thumbnail" className="banner-image"/>
+          <img className="bubble1" src={bubble1} alt=""/>
+          <img className="bubble2" src={bubble2} alt=""/>
         </Col>
       </Row>
     </Container>

@@ -5,7 +5,6 @@ import Footer from "./footer"
 import Header from "./header"
 import "./layout.css"
 import "./styles.scss"
-import Contact from "./contact"
 
 const Layout = ({ children }) => {
   // const data = useStaticQuery(graphql`
@@ -22,7 +21,6 @@ const Layout = ({ children }) => {
     <>
       <Header/>
       <main>{children}</main>
-      <Contact/>
       <Footer/>
     </>
   )

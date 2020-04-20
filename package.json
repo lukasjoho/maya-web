@@ -3,7 +3,7 @@
   "private": true,
   "description": "Portfolio site for Excyted",
   "version": "1.0.0",
-  "author": "Jaykch",
+  "author": "lukasjoho",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "dotenv": "^8.2.0",
